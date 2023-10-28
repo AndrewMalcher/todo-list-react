@@ -1,14 +1,14 @@
-body{
+body {
     font-family: Arial;
     background-color: #f4f4f4;
     padding: 30px;
     color: #333;
-    background-image: url('./retro-background-gjqkb94ajz14w26m.jpg') ;
+    background-image: url('./retro-background-gjqkb94ajz14w26m.jpg');
     background-position: center;
     background-size: cover;
 }
 
-.App{
+.App {
     max-width: 600px;
     margin: 0 auto 300px;
     background-color: #efefef;
@@ -16,23 +16,23 @@ body{
     border-radius: 10px;
 }
 
-h1{
+h1 {
     text-align: center;
 }
 
-h2{
+h2 {
     margin-bottom: 10px;
 }
 
-p{
+p {
     margin: 10px 0;
 }
 
-input{
+input {
     box-sizing: border-box;
 }
 
-button{
+button {
     background-color: #333974;
     color: #ffff;
     padding: 5px 10px;
@@ -44,19 +44,19 @@ button{
     margin-right: 10px;
 }
 
-button:hover{
+button:hover {
     opacity: 1;
 }
 
-.todo-list{
+.todo-list {
     margin-bottom: 20px;
     padding-bottom: 20px;
     border-bottom: 1px solid #555;
 }
 
-.todo{
+.todo {
     background-color: #FFF;
-    box-shadow: 0 0 10px rgba(0 ,0 ,0 , 0.1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     padding: 10px;
     margin-bottom: 10px;
     border-radius: 5px;
@@ -67,24 +67,40 @@ button:hover{
 
 }
 
-.complete{
+.complete {
     background-color: green;
 }
 
-.remove{
+.remove {
     background-color: red;
 }
 
-.todo-form{
+.todo-form {
     padding-bottom: 1.5rem;
 }
 
-input, select {
+input,
+select {
     padding: 5px;
     margin-bottom: 10px;
     border: 1px solid #DDD;
     width: 100%;
 }
 
+.filter,
+.search {
+    border-bottom: 1px solid #555;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
 
+}
 
+.filter-options {
+    display: flex;
+    justify-content: space-between;
+    gap: 3rem;
+}
+
+.filter-options div{
+    flex: 1 1 0;
+}
